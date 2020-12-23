@@ -13,6 +13,11 @@
 		1C620531259329320003220D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C620530259329320003220D /* Preview Assets.xcassets */; };
 		1C62053C259329330003220D /* HACKERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C62053B259329330003220D /* HACKERTests.swift */; };
 		1C620547259329330003220D /* HACKERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C620546259329330003220D /* HACKERUITests.swift */; };
+		1C6D62DE2593374B00A1F087 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D62DD2593374B00A1F087 /* NetworkManager.swift */; };
+		1C6D62E625933A9300A1F087 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D62E525933A9300A1F087 /* PostData.swift */; };
+		1C6D62EC2593437700A1F087 /* Langar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C6D62EB2593437700A1F087 /* Langar-Regular.ttf */; };
+		1C6D62F52593452600A1F087 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D62F42593452600A1F087 /* DetailView.swift */; };
+		1C6D62FA2593512800A1F087 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D62F92593512800A1F087 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,12 @@
 		1C620542259329330003220D /* HACKERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HACKERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C620546259329330003220D /* HACKERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACKERUITests.swift; sourceTree = "<group>"; };
 		1C620548259329330003220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6D62DD2593374B00A1F087 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1C6D62E525933A9300A1F087 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		1C6D62EB2593437700A1F087 /* Langar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Langar-Regular.ttf"; sourceTree = "<group>"; };
+		1C6D62F42593452600A1F087 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1C6D62F92593512800A1F087 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		1C6D6304259354E900A1F087 /* HACKER.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HACKER.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +106,11 @@
 		1C620528259329310003220D /* HACKER */ = {
 			isa = PBXGroup;
 			children = (
+				1C6D6304259354E900A1F087 /* HACKER.entitlements */,
 				1C620529259329310003220D /* HACKERApp.swift */,
-				1C62052B259329310003220D /* ContentView.swift */,
+				1C6D62F0259344FD00A1F087 /* Views */,
+				1C6D62EA2593434B00A1F087 /* fonts */,
+				1C6D62DC2593373200A1F087 /* Models */,
 				1C62052D259329320003220D /* Assets.xcassets */,
 				1C620532259329320003220D /* Info.plist */,
 				1C62052F259329320003220D /* Preview Content */,
@@ -128,6 +142,33 @@
 				1C620548259329330003220D /* Info.plist */,
 			);
 			path = HACKERUITests;
+			sourceTree = "<group>";
+		};
+		1C6D62DC2593373200A1F087 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D62DD2593374B00A1F087 /* NetworkManager.swift */,
+				1C6D62E525933A9300A1F087 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C6D62EA2593434B00A1F087 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D62EB2593437700A1F087 /* Langar-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		1C6D62F0259344FD00A1F087 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C62052B259329310003220D /* ContentView.swift */,
+				1C6D62F92593512800A1F087 /* WebView.swift */,
+				1C6D62F42593452600A1F087 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6D62EC2593437700A1F087 /* Langar-Regular.ttf in Resources */,
 				1C620531259329320003220D /* Preview Assets.xcassets in Resources */,
 				1C62052E259329320003220D /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6D62DE2593374B00A1F087 /* NetworkManager.swift in Sources */,
+				1C6D62E625933A9300A1F087 /* PostData.swift in Sources */,
 				1C62052C259329310003220D /* ContentView.swift in Sources */,
+				1C6D62FA2593512800A1F087 /* WebView.swift in Sources */,
+				1C6D62F52593452600A1F087 /* DetailView.swift in Sources */,
 				1C62052A259329310003220D /* HACKERApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +463,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HACKER/HACKER.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HACKER/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RU9D45S73;
@@ -429,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +488,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HACKER/HACKER.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HACKER/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RU9D45S73;
@@ -451,6 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
