@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C62052A259329310003220D /* HACKERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C620529259329310003220D /* HACKERApp.swift */; };
+		1C62052C259329310003220D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C62052B259329310003220D /* ContentView.swift */; };
+		1C62052E259329320003220D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C62052D259329320003220D /* Assets.xcassets */; };
+		1C620531259329320003220D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C620530259329320003220D /* Preview Assets.xcassets */; };
+		1C62053C259329330003220D /* HACKERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C62053B259329330003220D /* HACKERTests.swift */; };
+		1C620547259329330003220D /* HACKERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C620546259329330003220D /* HACKERUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C620538259329330003220D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C62051E259329300003220D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C620525259329310003220D;
+			remoteInfo = HACKER;
+		};
+		1C620543259329330003220D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C62051E259329300003220D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C620525259329310003220D;
+			remoteInfo = HACKER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C620526259329310003220D /* HACKER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HACKER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C620529259329310003220D /* HACKERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACKERApp.swift; sourceTree = "<group>"; };
+		1C62052B259329310003220D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C62052D259329320003220D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C620530259329320003220D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C620532259329320003220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C620537259329330003220D /* HACKERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HACKERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C62053B259329330003220D /* HACKERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACKERTests.swift; sourceTree = "<group>"; };
+		1C62053D259329330003220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C620542259329330003220D /* HACKERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HACKERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C620546259329330003220D /* HACKERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACKERUITests.swift; sourceTree = "<group>"; };
+		1C620548259329330003220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C620523259329310003220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C620534259329330003220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C62053F259329330003220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C62051D259329300003220D = {
+			isa = PBXGroup;
+			children = (
+				1C620528259329310003220D /* HACKER */,
+				1C62053A259329330003220D /* HACKERTests */,
+				1C620545259329330003220D /* HACKERUITests */,
+				1C620527259329310003220D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C620527259329310003220D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C620526259329310003220D /* HACKER.app */,
+				1C620537259329330003220D /* HACKERTests.xctest */,
+				1C620542259329330003220D /* HACKERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C620528259329310003220D /* HACKER */ = {
+			isa = PBXGroup;
+			children = (
+				1C620529259329310003220D /* HACKERApp.swift */,
+				1C62052B259329310003220D /* ContentView.swift */,
+				1C62052D259329320003220D /* Assets.xcassets */,
+				1C620532259329320003220D /* Info.plist */,
+				1C62052F259329320003220D /* Preview Content */,
+			);
+			path = HACKER;
+			sourceTree = "<group>";
+		};
+		1C62052F259329320003220D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C620530259329320003220D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C62053A259329330003220D /* HACKERTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C62053B259329330003220D /* HACKERTests.swift */,
+				1C62053D259329330003220D /* Info.plist */,
+			);
+			path = HACKERTests;
+			sourceTree = "<group>";
+		};
+		1C620545259329330003220D /* HACKERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C620546259329330003220D /* HACKERUITests.swift */,
+				1C620548259329330003220D /* Info.plist */,
+			);
+			path = HACKERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C620525259329310003220D /* HACKER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C62054B259329330003220D /* Build configuration list for PBXNativeTarget "HACKER" */;
+			buildPhases = (
+				1C620522259329310003220D /* Sources */,
+				1C620523259329310003220D /* Frameworks */,
+				1C620524259329310003220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HACKER;
+			productName = HACKER;
+			productReference = 1C620526259329310003220D /* HACKER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C620536259329330003220D /* HACKERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C62054E259329330003220D /* Build configuration list for PBXNativeTarget "HACKERTests" */;
+			buildPhases = (
+				1C620533259329330003220D /* Sources */,
+				1C620534259329330003220D /* Frameworks */,
+				1C620535259329330003220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C620539259329330003220D /* PBXTargetDependency */,
+			);
+			name = HACKERTests;
+			productName = HACKERTests;
+			productReference = 1C620537259329330003220D /* HACKERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C620541259329330003220D /* HACKERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C620551259329330003220D /* Build configuration list for PBXNativeTarget "HACKERUITests" */;
+			buildPhases = (
+				1C62053E259329330003220D /* Sources */,
+				1C62053F259329330003220D /* Frameworks */,
+				1C620540259329330003220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C620544259329330003220D /* PBXTargetDependency */,
+			);
+			name = HACKERUITests;
+			productName = HACKERUITests;
+			productReference = 1C620542259329330003220D /* HACKERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C62051E259329300003220D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1C620525259329310003220D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1C620536259329330003220D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1C620525259329310003220D;
+					};
+					1C620541259329330003220D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1C620525259329310003220D;
+					};
+				};
+			};
+			buildConfigurationList = 1C620521259329310003220D /* Build configuration list for PBXProject "HACKER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C62051D259329300003220D;
+			productRefGroup = 1C620527259329310003220D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C620525259329310003220D /* HACKER */,
+				1C620536259329330003220D /* HACKERTests */,
+				1C620541259329330003220D /* HACKERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C620524259329310003220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C620531259329320003220D /* Preview Assets.xcassets in Resources */,
+				1C62052E259329320003220D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C620535259329330003220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C620540259329330003220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C620522259329310003220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C62052C259329310003220D /* ContentView.swift in Sources */,
+				1C62052A259329310003220D /* HACKERApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C620533259329330003220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C62053C259329330003220D /* HACKERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C62053E259329330003220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C620547259329330003220D /* HACKERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C620539259329330003220D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C620525259329310003220D /* HACKER */;
+			targetProxy = 1C620538259329330003220D /* PBXContainerItemProxy */;
+		};
+		1C620544259329330003220D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C620525259329310003220D /* HACKER */;
+			targetProxy = 1C620543259329330003220D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C620549259329330003220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C62054A259329330003220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C62054C259329330003220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HACKER/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HACKER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C62054D259329330003220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HACKER/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HACKER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C62054F259329330003220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = HACKERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HACKER.app/HACKER";
+			};
+			name = Debug;
+		};
+		1C620550259329330003220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = HACKERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HACKER.app/HACKER";
+			};
+			name = Release;
+		};
+		1C620552259329330003220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = HACKERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HACKER;
+			};
+			name = Debug;
+		};
+		1C620553259329330003220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = HACKERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.HACKERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HACKER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C620521259329310003220D /* Build configuration list for PBXProject "HACKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C620549259329330003220D /* Debug */,
+				1C62054A259329330003220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C62054B259329330003220D /* Build configuration list for PBXNativeTarget "HACKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C62054C259329330003220D /* Debug */,
+				1C62054D259329330003220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C62054E259329330003220D /* Build configuration list for PBXNativeTarget "HACKERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C62054F259329330003220D /* Debug */,
+				1C620550259329330003220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C620551259329330003220D /* Build configuration list for PBXNativeTarget "HACKERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C620552259329330003220D /* Debug */,
+				1C620553259329330003220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C62051E259329300003220D /* Project object */;
+}
